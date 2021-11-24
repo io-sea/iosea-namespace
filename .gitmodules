@@ -1,0 +1,20 @@
+[submodule "extstore"]
+	path = extstore
+	url = https://phdeniel@github.com/phdeniel/extstore.git
+	branch = master
+[submodule "kvsal"]
+	path = kvsal
+	url = https://phdeniel@github.com/phdeniel/kvsal.git
+	branch = master
+[submodule "kvsns-base"]
+	path = kvsns-base
+	url = https://phdeniel@github.com/phdeniel/kvsns-base.git
+	branch = master
+[submodule "libiosea-hash"]
+	path = libiosea-hash
+	url = https://phdeniel@github.com/phdeniel/libiosea-hash.git
+	branch = master
+[submodule "libm0common"]
+	path = libm0common
+	url = https://phdeniel@github.com/phdeniel/libm0common.git
+	branch = master
