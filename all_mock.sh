@@ -9,6 +9,7 @@ MOCK="mock --configdir $PWD/mock_cfg -r $ARCH --resultdir=$PWD/results"
 # Init the mock environment
 $MOCK --init
 
+ln -s kvsns-base kvsns
 for i in libiosea-hash kvsal extstore kvsns; do
 	SRPM=`find $i/ -name "*$i*.src.rpm"`
 	$MOCK --no-clean rebuild $SRPM 
@@ -19,5 +20,6 @@ for i in libiosea-hash kvsal extstore kvsns; do
 done
 
 # CLEANUP
+rm kvsns
 $MOCK --clean
 
