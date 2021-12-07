@@ -24,3 +24,5 @@ for i in kvsal extstore kvsns-base ; do
 	make install DESTDIR=$DDIR 
 	cd ../..
 done
+
+tree $DDIR
