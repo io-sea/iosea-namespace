@@ -1,2 +1,2 @@
-git clean -dfx && git submodule foreach 'git status'
+git clean -dfx && git submodule foreach 'git clean -dfx'
 
