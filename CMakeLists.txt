@@ -8,7 +8,7 @@ set(IOSEA-NAMESPACE_MINOR_VERSION 3)
 set(IOSEA-NAMESPACE_PATCH_LEVEL 0)
 set(IOSEA-NAMESPACE_EXTRA_VERSION "")
 
-include_directories(AFTER libm0common
+include_directories(AFTER libm0common/include
 			  libiosea-hash/include
                           kvsal/include
 			  extstore/include
