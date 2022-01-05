@@ -18,3 +18,7 @@
 	path = libm0common
 	url = ssh://gerrit.ccc.ocre.cea.fr:29418/libm0common
 	branch = master
+[submodule "GRH"]
+	path = GRH
+	url = ssh://gerrit.ccc.ocre.cea.fr:29418/GRH
+    branch = master
