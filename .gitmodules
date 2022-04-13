@@ -1,24 +1,24 @@
 [submodule "extstore"]
 	path = extstore
-	url = ssh://gerrit.ccc.ocre.cea.fr:29418/extstore
+	url = https://github.com/io-sea/extstore.git 
 	branch = next
 [submodule "kvsal"]
 	path = kvsal
-	url = ssh://gerrit.ccc.ocre.cea.fr:29418/kvsal
+	url = https://github.com/io-sea/kvsal.git 
 	branch = next
 [submodule "kvsns-base"]
 	path = kvsns-base
-	url = ssh://gerrit.ccc.ocre.cea.fr:29418/kvsns-base
+	url = https://github.com/io-sea/kvsns-base.git 
 	branch = next
 [submodule "libiosea-hash"]
 	path = libiosea-hash
-	url = ssh://gerrit.ccc.ocre.cea.fr:29418/libiosea-hash
+	url = https://github.com/io-sea/libiosea-hash.git 
 	branch = next
 [submodule "libm0common"]
 	path = libm0common
-	url = ssh://gerrit.ccc.ocre.cea.fr:29418/libm0common
+	url = https://github.com/io-sea/libm0common.git 
 	branch = next
-[submodule "GRH"]
+#[submodule "GRH"]
 	path = GRH
-	url = ssh://gerrit.ccc.ocre.cea.fr:29418/GRH
+	url = https://github.com/io-sea/GRH.git 
 	branch = next
