@@ -18,7 +18,7 @@
 	path = libm0common
 	url = https://github.com/io-sea/libm0common.git 
 	branch = next
-#[submodule "GRH"]
+[submodule "GRH"]
 	path = GRH
 	url = https://github.com/io-sea/GRH.git 
 	branch = next
